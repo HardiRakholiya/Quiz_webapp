@@ -1,0 +1,80 @@
+*{
+   font-size: 13px;
+}
+body{
+    color: black;
+}
+.choice-container{
+    display: flex;
+    margin-bottom: 0.5rem;
+    width: 100%;
+    border-radius: 6px;
+    color: black;
+    font-weight: bold;
+    background: rgb(234, 170, 92);
+    font-size: 20px;
+    min-width: 50rem;
+}
+
+.choice-container:hover{
+    cursor: pointer;
+    font-size: 0.2rem;
+    background: rgb(175, 107, 24);
+
+}
+
+.choice-prefix{
+    padding: 1.5rem;
+    color: black;
+    font-size: 1.8rem;
+}
+.choice-text{
+    padding: 1.5rem;
+    width: 100%;
+    font-size:1.8rem;
+}
+.correct{
+    background: green;
+}
+.incorrect{
+    background: red;
+}
+
+#hud{
+    display: flex;
+    justify-content: space-between;
+}
+.hud-prefix{
+    text-align: center;
+    font-size: 2rem;
+}
+
+#scoretext{
+    font-size: 2rem;
+}
+
+.hud-main-text{
+    text-align: center;
+}
+#question{
+    margin-top: 2rem;
+}
+
+#progressbar{
+    width: 15rem;
+    height: 2rem;
+    border: 0.2rem solid black;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+#progressbarfull{
+    height: 100%;
+    background: green;
+}
+
+@media screen and(max-width : 684px){
+    .choice-container{
+        min-width: 20rem;
+    }
+}
