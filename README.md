@@ -5,8 +5,8 @@ Languages: HTML, CSS, JAVASCRIPT
 you can start the quiz by choosing the play button or checking the leaderboard by pressing the Highscores button.
 ![image](https://github.com/HardiRakholiya/Quiz_webapp/assets/132381945/b0884747-17fe-497d-bc63-ce427f72d1fd)
 
-By play button, you will be directed to the question page where you can select the option and according to the question number, the progress bar will be updated and based on the option score will also updated.
 # Question Page 
+By play button, you will be directed to the question page where you can select the option and according to the question number, the progress bar will be updated and based on the option score will also updated.
 ![image](https://github.com/HardiRakholiya/Quiz_webapp/assets/132381945/1275c456-450c-4c16-868d-e5545853282b)
 
 # Save Score
